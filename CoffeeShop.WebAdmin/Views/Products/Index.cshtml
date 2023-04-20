@@ -1,0 +1,57 @@
+﻿
+@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row col-12 mt-3 mx-3">
+    <div id="tableProgress" class="col-lg-12 col-12 layout-spacing">
+        <div class="statbox widget box box-shadow">
+            <div class="widget-header">
+                <h2 class="text-primary">Product list</h2>
+                <div class="widget-content widget-content-area">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th class="text-center">Photo</th>
+                                    <th class="text-center">Name</th>
+                                    <th class="text-center">Description</th>
+                                    <th class="text-center">Category</th>
+                                    <th class="text-center">UnitOfPrice</th>
+                                    <th class="text-center">TotalCount</th>
+                                    <th class="text-center">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ foreach (var item in Model)
+                                    {
+                        <tr>
+                            <td class="text-center">@item.Id</td>
+                            <td class="text-center">  <img style="width:70px; height: 50px" src="~/@item.ProfileDocPath" /></td>
+
+                            <td class="text-center">@item.Name</td>
+                            <td class="text-center">@item.Description</td>
+                            <td class="text-center">@item.ProductCategory.Name</td>
+                            <td class="text-center">@item.UnitOfPrice</td>
+                            <td class="text-center">@item.TotalCount</td>
+                            <td class="text-center" role="group">
+                                <a asp-controller="Products" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" aria-current="page">  <i class="bi bi-trash-fill"></i>Delete</a>
+                                <a asp-controller="Products" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning" aria-current="page"> <i class="bi bi-pencil-square"></i>Update</a>
+                            </td>
+                        </tr>
+ } }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                        <a asp-controller="Products" asp-action="Create" class="btn btn-success">
+                            <i class="bi bi-plus-circle"></i>Create
+                        </a>
+            </div>
+        </div>
+    </div>
+
+</div>

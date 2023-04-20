@@ -1,0 +1,42 @@
+﻿@using CoffeeShop.DAL.Data
+
+@inject AppDbContext db;
+<footer>
+    <section class="Footer">
+        <hr class="hr-footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="card-footer-header col-sm-12 d-flex">
+                    <div class="card-footer-title col-sm-4">
+                        <h2 class="footer-title">About us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper mattis, pulvinar dapibus leo.
+                        </p>
+                    </div>
+                    @foreach (var item in db.SiteInfos.Where(s => s.DeletedDate == null))
+                    {
+                        <div class="card-footer-title1 col-sm-4">
+                            <h2 class="footer-title1">Contact</h2>
+                            <p>@item.Address</p>
+                            <p>@item.PhoneNumber</p>
+                            <p>@item.Email</p>
+                        </div>
+                    }
+                    <div class="card-footer-title1 col-sm-4">
+                        <h2 class="footer-title1">Opening hours</h2>
+                        <p>Mon – Fry — 8AM – 8PM<br>Saturday — 8AM – 4PM<br>Sunday — 8AM – 2PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-icons d-flex">
+            @foreach (var item in db.SiteSocialLinks.Where(s => s.DeletedDate == null))
+            {
+                <a href="@item.Link">@Html.Raw(item.Icon)</a>
+            }
+            </div>
+        <hr class="hr-footer">
+        <p class="footer-p">Copyright © 2023 Coffee Shop | Powered by Coffee Shop</p>
+    </section>
+</footer>

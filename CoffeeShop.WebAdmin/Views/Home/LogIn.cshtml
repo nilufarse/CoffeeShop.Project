@@ -1,0 +1,40 @@
+﻿@model LoginViewModel
+@{ ViewData["Title"] = "LogIn";   
+Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+
+
+<div class="d-lg-flex half" style="min-height:650px;">
+    <div class="bg order-1 order-md-2">
+        <img class="img-bg" src="~/login/images/gallery-1.jpg" style="width:100%; height:100%;" alt="">
+    </div>
+    <div class="contents order-2 order-md-1">
+        <div class="container" style="min-height:650px;">
+            <div class="row align-items-center justify-content-center" style="min-height:650px;">
+                <div class="col-md-7" style="text-align: center;">
+                    <h3>Login </h3>
+                 <form asp-action="LogIn" method="post">
+                        <div class="form-group first">
+                            <label asp-for="Email"  for="username">Username</label>
+                            <input asp-validation-for="Email" asp-for="Email" type="text" class="form-control">
+                        </div>
+                        <div class="form-group last mb-3">
+                            <label asp-for="Password" for="password">Password</label>
+                            <input asp-validation-for="Password" asp-for="Password" type="password" class="form-control">
+                        </div>
+
+                        <div class="d-flex mb-5 align-items-center">
+                            <label class="control control--checkbox mb-0">
+                                <span class="caption">Remember me</span>
+                                <input type="checkbox" checked="checked" />
+                            </label>
+                            <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span>
+                        </div>
+                        <input type="submit" value="Log In" class="btn btn-block btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

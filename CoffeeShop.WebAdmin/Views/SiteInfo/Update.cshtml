@@ -1,0 +1,76 @@
+﻿@model SiteInfoDto
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="row col-12 layout-top-spacing px-3 mt-3">
+    <form method="post" asp-action="Update" enctype="multipart/form-data">
+        <div class="row col-12">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input required asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Header" class="control-label"></label>
+                    <input required asp-for="Header" class="form-control" />
+                    <span asp-validation-for="Header" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input required asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Description1" class="control-label"></label>
+                    <input required asp-for="Description1" class="form-control" />
+                    <span asp-validation-for="Description1" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Description2" class="control-label"></label>
+                    <input required asp-for="Description2" class="form-control" />
+                    <span asp-validation-for="Description2" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input required asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input required asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input required asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 mt-3">
+            <div class="col-md-4 control-label">
+                @Html.ActionLink("Return to list", "Index", "SiteInfo", null, new { @class = "btn btn-primary" })
+            </div>
+            <div class="col-md-2">
+                <input type="submit" value="Save" class="btn btn-success" tabindex="16" />
+            </div>
+        </div>
+    </form>
+</div>

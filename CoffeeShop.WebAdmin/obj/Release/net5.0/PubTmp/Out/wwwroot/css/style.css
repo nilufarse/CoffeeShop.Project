@@ -1,0 +1,1189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(90deg, rgb(127, 69, 37) 0%, rgb(168, 125, 79) 100%);
+}
+
+.logo-img {
+    height: auto;
+    max-width: 100%;
+    box-sizing: inherit;
+    text-align: center;
+    padding: 1em 0;
+    transition: all .2s linear;
+}
+
+.logo {
+    width: 137px;
+    height: 133px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+.menu {
+    line-height: 60px;
+    margin: 4px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.menu a {
+    position: relative;
+    padding: 0 1em;
+    line-height: 60px;
+}
+
+.site-background {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity:.25;
+    background-image: url(../Photo/hero-01-free-img.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.site-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+    height: 850px;
+}
+.site-content{
+    width: 100% !important;
+    max-width: 1140px !important;
+    margin: 0px 0px 0px 70px;
+    padding: 50px 0px 0px 0px;
+}
+.site--content{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+h1.site-title {
+    font-weight: 700;
+    line-height: 1.15em;
+    color: #ffffff;
+    font-size: 5.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h4.site-title {
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.site-icon {
+    color: #ffffff;
+    margin: 30px 20px;
+    font-size: 32px;
+    line-height: 1.2em;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.site-icon h5 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 1.3333333333333rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.coffe-image {
+    height: 625px;
+    width: 625px;
+    box-sizing: border-box;
+    text-align: right !important;
+    transform: translate(31rem, -19rem);
+}
+.coffee{
+    margin-bottom: 0px;
+}
+.Drinks {
+    text-align: center;
+    margin: 0px 20px 0px 40px !important;
+}
+
+.drinks-container {
+    margin: 0px 0px 35px;
+}
+
+.drinks-title {
+    color: #ffffff;
+    line-height: 1em;
+    margin: 0;
+    font-weight: 700;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hr-title {
+    color: #ffffff !important;
+    width: 6%;
+    margin: 8px 566px;
+    padding-bottom: 2px;
+
+}
+
+.drinks-text {
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.drinks-icon {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.coffecard {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    color: #ffffff;
+}
+
+.card1,
+.card2,
+.card3 {
+    margin: 0% 1% !important;
+    padding: 1%;
+    width: 31.333% !important;
+    border-radius: 20px;
+}
+
+.card1 {
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+
+.card2 {
+    background-image: linear-gradient(45deg, #4C8D81 0%, #C39868 100%);
+}
+
+.card3 {
+    background-image: linear-gradient(45deg, #211B1A 0%, #3F3735 100%);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.drinksimg {
+    height: auto;
+    width: 100%;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.text2 {
+    font-size: 3.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 0.9em;
+}
+
+.text3 {
+    font-size: 18px;
+    color: #d2cacac9;
+
+}
+
+.drinks-buttom {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    padding: 4% 33%;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 15px;
+}
+
+.Croissants {
+    background-image: url(../Photo/peceniye.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.croissants-container {
+    color: #ffffff;
+
+}
+
+.hr-croissants {
+    color: #ffffff !important;
+    width: 12%;
+    margin: 20px 0px;
+    padding-bottom: 1px;
+    opacity: 1;
+}
+
+.croissants-title {
+    color: #ffffff94;
+    line-height: 1.2em;
+    font-size: 1.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.croissants-size {
+    line-height: 1em;
+    color: #ffffff;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.croissants-heading-title {
+    color: #ffffff;
+    line-height: 1.2em;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.croissants-container p {
+    font-size: 18px;
+    color: #d2cacac9;
+
+}
+
+.croissants-button-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 3em;
+    letter-spacing: 1px;
+}
+
+.croissants {
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    width: 38% !important;
+    position: relative;
+    min-height: 1px;
+    margin: 86px 0px 0px 105px !important;
+    padding: 60px 0px;
+}
+
+.croissantsimg {
+    height: auto;
+    width: 100%;
+    transform: translate(7rem, -5rem);
+}
+
+.byforhome {
+    width: 100%;
+}
+
+.byforhome-container {
+    position: relative;
+    margin: 0px 60px 0px 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+
+.card-paket {
+    margin: 75px 15px;
+}
+
+.card-paket-img {
+    margin: 0px 15px;
+}
+
+.hr-paket {
+    color: #ffffff !important;
+    width: 9%;
+    margin: 20px 0px;
+    padding-bottom: 1px;
+    opacity: 1;
+}
+
+.paket-title {
+    color: #ffffff94;
+    line-height: 1.2em;
+    font-size: 1.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.paket-size {
+    line-height: 1em;
+    color: #ffffff;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.paket-heading-title {
+    color: #ffffff;
+    line-height: 1.2em;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.paket-container p {
+    font-size: 18px;
+    color: #d2cacac9;
+
+}
+
+.paket-button-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 3em;
+    letter-spacing: 1px;
+}
+
+.coffee-paket {
+    height: auto;
+    width: 100%;
+}
+
+.About {
+    background-image: url(../Photo/about-coffee.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aboutcontainer {
+    text-align: center;
+    margin: 60px 0px 35px;
+}
+
+.about-title {
+    color: #ffffff;
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hr-title {
+    width: 6%;
+    margin: 8px 585px;
+    padding-bottom: 1px;
+    opacity: 1;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.about-text {
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.about--container {
+    text-align: start;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 940px;
+}
+
+.about--heading-title {
+    padding: 0px 35px;
+    line-height: 1.25em;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.card-abouts {
+    padding: 14px 0px;
+}
+
+.card-about {
+    margin: 0px 20px;
+    position: relative;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    align-items: flex-start;
+}
+
+.about-heading-title {
+    padding: 0px 60px;
+    line-height: 1.25em;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-size-default {
+    padding: 0px 30px;
+    color: #ffffff;
+    line-height: 0.9em;
+    font-size: 3.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-default {
+    color: #ffffff;
+    line-height: 1.2em;
+    font-size: 1.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-button-text {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.card-about h6 {
+    margin-bottom: 1.5em !important;
+}
+
+.card-about p {
+    margin-bottom: 1.5em !important;
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.baristoParty {
+    background-image: url(../Photo/coffee-round.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1px 0;
+}
+
+.baristoparty-container {
+    width: 90%;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, rgb(167, 116, 67) 0%, rgb(195, 152, 104) 100%);
+    border-radius: 20px;
+    margin: 145px 0px 70px 60px;
+    margin-bottom: 85.5px;
+}
+
+.card-baristo {
+    margin-bottom: -84px;
+}
+
+.hr-baristo {
+    color: #ffffff !important;
+    width: 50px;
+    margin: 25px 0px 30px 0px;
+    padding-bottom: 1px;
+    opacity: 1;
+}
+
+.hrbaristo {
+    color: #ffffff !important;
+    width: 240px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 2px;
+    opacity: 1;
+}
+
+.card-cup-coffee {
+    align-content: flex-start;
+    padding: 20px 0px 0px 40px;
+    width: 36% !important;
+    position: relative;
+    min-height: 1px;
+
+}
+
+.card-coffee {
+    position: relative;
+    min-height: 1px;
+    align-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.card-cup {
+    width: 33% !important;
+    padding: 40px 0px 0px 40px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #C19768 0%, #4F8D81 100%);
+    position: relative;
+    min-height: 1px;
+    margin-bottom: 84px;
+}
+
+.coffee-cup-img {
+    height: auto;
+    transform: translate(-10rem, -3rem);
+}
+
+.barista-size {
+    font-weight: 700;
+    line-height: 0.9em;
+    font-size: 3.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.barista-size-default {
+    margin-bottom: 1.5rem !important;
+    font-size: 100px;
+    line-height: 1em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.barista-title {
+    font-weight: 700;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Playfair Display', serif;
+    margin: 0px 40px;
+}
+
+.barista-heading-title {
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.baristo-button-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.card-cup-coffee p,
+.card-cup p {
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.baristo-button {
+    margin: 70px 0px 0px 0px;
+}
+
+.baristo-buttom {
+    margin: 198px 0px 0px 70px;
+}
+
+footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    background-image: linear-gradient(90deg, rgb(127, 69, 37) 0%, rgb(168, 125, 79) 100%);
+}
+
+.footer-title,
+.footer-title1 {
+    margin: -16px 0px;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 1.3333333333333rem;
+    line-height: 4.2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer-title1 {
+    text-align: right;
+}
+
+.card-footer-title p,
+.card-footer-title1 p {
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 17px;
+    line-height: 1.2em;
+}
+
+.card-footer-title1 p {
+    text-align: right;
+}
+
+.hr-footer {
+    color: #ffffff !important;
+    width: 755px;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 2px;
+    opacity: 1;
+}
+
+.footer-p {
+    color: #d2cacac9;
+    margin-bottom: 1.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-icons {
+    color: #ffffff;
+    margin-top: 13px;
+    text-align: left;
+}
+
+.footer-icons a {
+    margin-left: 0;
+    margin-bottom: 55px;
+    line-height: 1;
+    margin-right: 7.5px;
+    padding: 14px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* T Page 2 start */
+.logoAndmenu {
+    background-image: url(https://websitedemos.net/coffee-shop-04/wp-content/uploads/sites/727/2020/11/bg-0006-free-img.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 345px !important
+}
+
+.ourMenu-title {
+    line-height: 1.15em;
+    color: #ffffff;
+    font-size: 5.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.drink-container {
+    margin: 95px 0px;
+    margin-bottom: 70px;
+}
+
+.drinks-title {
+    color: #ffffff;
+    line-height: 1em;
+    margin: 0;
+    font-weight: 700;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hr-title {
+    color: #ffffff !important;
+    width: 6%;
+    margin: 8px 566px;
+    padding-bottom: 2px;
+
+}
+
+.drinkss-buttom {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    padding: 3% 20%;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 15px;
+}
+.drinks-text {
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.drinks-icon {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.drinkcard {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin: 5px 0px 40px 18px;
+    padding: 0px 20px;
+
+}
+
+.card-drink1,
+.card-drink2,
+.card-drink3,
+.card-drink4 {
+    width: 24% !important;
+    min-height: 1px;
+    display: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.card-drink1 {
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+
+.card-drink2 {
+    background-image: linear-gradient(45deg, #4C8D81 0%, #C39868 100%);
+}
+
+.card-drink3 {
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+
+.card-drink4 {
+    background-image: linear-gradient(45deg, #211B1A 0%, #3F3735 100%);
+}
+
+.drinkimg {
+    height: auto;
+    width: 75%;
+}
+
+.text-drink {
+    line-height: 0.5em;
+    font-weight: 700;
+    font-size: 1.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-drink1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-drink2 {
+    line-height: 1em;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d2cacac9;
+
+}
+
+.drinkimgs {
+    height: auto;
+    width: 100%;
+}
+
+.packetcard {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin: 5px 0px 95px 18px;
+    padding: 0px 20px;
+}
+
+/* T Page 3 start */
+.about-container {
+    text-align: center;
+}
+
+.abouts-container {
+    text-align: start;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 940px;
+}
+
+.abouts--container {
+    text-align: start;
+    text-align: start;
+    margin: 0px 121px 0px 0px;
+    padding: 98px 51px;
+}
+
+.about-title-header {
+    color: #ffffff;
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hr-title-element {
+    height: 2px !important;
+    width: 90%;
+    margin: 40px 30px;
+    padding-bottom: 1px;
+    opacity: 2;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.about-heading-element {
+    padding: 0px 30px;
+    line-height: 1.25em;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-heading-elements {
+    padding: 22px 0px;
+    line-height: 1.25em;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.card-abouts-element {
+    padding: 14px 0px;
+}
+
+.card-about-element {
+    margin: 68px 0px;
+    width: 100%;
+    min-height: 1px;
+    align-items: flex-start;
+}
+
+.card--about-element {
+    width: 50%;
+    min-height: 1px;
+    align-items: flex-start;
+}
+
+.card-about--element {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 50%;
+    min-height: 1px;
+    align-items: flex-start;
+}
+
+.about-size-element {
+    padding: 0px 30px;
+    color: #ffffff;
+    line-height: 1em;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-default-elements {
+    color: #ffffff;
+    line-height: 1.2em;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about-default-element {
+    color: #ffffff;
+    line-height: 1.2em;
+    font-size: 1.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.card-about-element h6 {
+    margin-bottom: 1.5em !important;
+}
+
+.card-about-element p,
+.card--about-element p,
+.card-about--element p {
+    margin-bottom: 1.5em !important;
+    color: #d2cacac9;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* T Page 4 start */
+.Gallery {
+    background-image: url(../Photo/coffee-round.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 0;
+}
+
+.container-gallery {
+    text-align: center;
+    margin: 0px 0px 0px 30px;
+}
+
+.galleryimg {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.containergallery {
+    text-align: center;
+    margin: 45px 90px 85px 165px;
+}
+
+.gallery-row {
+    padding: 10px 0px;
+}
+
+.gallery-title-header {
+    color: #ffffff;
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 4.6666666666667rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* T Page 5 start */
+.container-contact {
+    padding: 0px 0px;
+    margin: 60px 100px;
+}
+
+.contactsinfo {
+    padding: 30px 100px 50px 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0rem !important;
+}
+
+.contact-title {
+    color: #ffffff;
+    font-size: 3.3333333333333rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.contact-list-text {
+    align-self: center;
+    padding-left: 5px;
+    line-height: 1.5em;
+}
+
+.contactsinfo p {
+    line-height: 1.5em;
+    color: #d2cacac9;
+    margin-bottom: 1.5em;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.socical-icon {
+    line-height: 1em;
+}
+
+.socical-icon a {
+    padding: 6px;
+    line-height: 2em;
+    border-radius: 50%;
+    border-color: #ffffff;
+    background-color: #ffffff00;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.socical-icon i {
+    padding: 3px;
+    line-height: 2em;
+}
+
+.contactsinfo input {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 0.6em !important;
+}
+
+.contactinfo {
+    position: relative;
+    min-width: 104%;
+}
+
+.nameinfo {
+    padding: 10px 0;
+    float: left;
+}
+
+.messageinfo {
+    padding: 0;
+}
+
+.nametext {
+
+    color: #666;
+    padding: 0.75em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.surnametext {
+    color: #666;
+    padding: 0.75em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.mailinfo {
+    padding: 10px 0;
+
+}
+
+.sendinfo {
+    padding: 10px 0;
+}
+
+.mailtext {
+    width: 100%;
+    color: #666;
+    padding: 0.75em;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 0.6em !important;
+    border-radius: 2px;
+}
+
+.messagetext {
+    height: 120px;
+    width: 100%;
+    border-style: solid;
+    color: #666;
+    padding: 0.75em;
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.buttontext {
+    border-style: solid;
+    color: #000000;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px 50px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+.container-location {
+    max-width: 1140px;
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+}
+
+.container-location iframe {
+    height: 400px;
+}
+
+
+.messaggetext {
+    height: 70px;
+    width: 50%;
+    border-style: solid;
+    color: #666;
+    padding: 0.75em;
+    border-radius: 2px;
+    border-width: 1px;
+}
+.buttontext1 {
+    border-style: solid;
+    color: #000000;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 50px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+.messaggeinfo {
+    padding: 5px;
+}
+.card-drink-1 {
+    min-height: 1px;
+    display: flex;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+.messaggeinfo {
+    padding: 5px;
+}
+.card-drink-1 {
+    min-height: 1px;
+    display: flex;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #A77443 0%, #C39868 100%);
+}
+.drinkcarda {
+    text-align: center;
+    margin: 30px 0px 30px 60px;
+}
+.messaggee-text {
+    height: 65px;
+    width: 55%;
+    border-style: solid;
+    color: rgb(102, 102, 102);
+    padding: 1.75em;
+    border-radius: 8px;
+    border-width: 1px;
+}
+.contacts-info{
+    width:75%;
+}

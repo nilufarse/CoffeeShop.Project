@@ -1,0 +1,17 @@
+﻿@model DataViewModel
+@{
+
+}
+@foreach (var item in Model.Products)
+{
+    <div class="card-drink1 col-md-4" style=" width: 31.333333% !important;">
+        <div class="card-body">
+            <img class="drinkimg" src="/images/@item.ProfileDocPath" alt="" style="height:50%;">
+            <p class="text-drink">$ @item.UnitOfPrice</p>
+            <p class="text-drink1">@item.Name</p>
+            <p class="text-drink1">@item.ProductCategory.Name</p>
+            <p class="text-drink2">@item.Description</p>
+            <a class="drinkss-buttom" asp-controller="order" asp-action="order" asp-route-id="@item.Id">Get Delivery</a>
+        </div>
+    </div>
+}  

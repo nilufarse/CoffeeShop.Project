@@ -1,0 +1,56 @@
+﻿@model List<SiteInfoDto>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row col-12 mt-3 mx-3">
+    <div id="tableProgress" class="col-lg-12 col-12 layout-spacing">
+        <div class="statbox widget box box-shadow">
+            <div class="widget-header">
+                <h2 class="text-primary">Site Info</h2>
+                <div class="widget-content widget-content-area">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th class="text-center">Name</th>
+                                    <th class="text-center">Header</th>
+                                    <th class="text-center">Description</th>
+                                    <th class="text-center">Description1</th>
+                                    <th class="text-center">Description2</th>
+                                    <th class="text-center">Address</th>
+                                    <th class="text-center">PhoneNumber</th>
+                                    <th class="text-center">Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    @if (item.Name != null)
+                                    {
+
+                                <tr>
+                                    <td class="text-center">@item.Id</td>
+                                    <td class="text-center">@item.Name</td>
+                                    <td class="text-center">@item.Header</td>
+                                    <td class="text-center">@item.Description</td>
+                                    <td class="text-center">@item.Description1</td>
+                                    <td class="text-center">@item.Description2</td>
+                                    <td class="text-center">@item.Address</td>
+                                    <td class="text-center">@item.PhoneNumber</td>
+                                    <td class="text-center">@item.Email</td>
+                                </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <a asp-controller="SiteInfo" asp-action="Update" class="btn btn-success"><i class="bi bi-plus-circle"></i>Update </a>
+            </div>
+        </div>
+    </div>
+
+</div>

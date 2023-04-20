@@ -1,0 +1,60 @@
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.AssemblyReference.cache
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfoInputs.cache
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfo.cs
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.deps.json
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.json
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.dev.json
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\source\repos\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.genruntimeconfig.cache
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.deps.json
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.json
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.dev.json
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.AssemblyReference.cache
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfoInputs.cache
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfo.cs
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.genruntimeconfig.cache
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.deps.json
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.json
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.dev.json
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.AssemblyReference.cache
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfoInputs.cache
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfo.cs
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\CoffeeShop - Copy (2)\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.genruntimeconfig.cache
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.deps.json
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.json
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.runtimeconfig.dev.json
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\bin\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.AssemblyReference.cache
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfoInputs.cache
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.AssemblyInfo.cs
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\ref\CoffeeShop.DAL.dll
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.pdb
+C:\Users\macbook\Desktop\Layihe\CoffeeShop\CoffeeShop.DAL\obj\Debug\net5.0\CoffeeShop.DAL.genruntimeconfig.cache

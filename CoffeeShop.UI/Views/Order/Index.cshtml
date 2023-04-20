@@ -1,0 +1,31 @@
+﻿@model DataViewModel
+
+<header class="logoAndmenu">
+    <section class="header">
+        <div class="logo-img">
+            <a href="" class="logo-link">
+                <img class="logo" src="/images/Photo/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a id="first" asp-controller="OurMenu" asp-action="Index">Our Menu</a>
+            <a asp-controller="About" asp-action="Index">About</a>
+            <a asp-controller="Gallery" asp-action="Index">Gallery</a>
+            <a asp-controller="Contact" asp-action="Answer">Contact</a>
+            <a asp-controller="Order" asp-action="Index">Order</a>
+       </div>
+    </section>
+</header>
+<main>
+    <div class="container">
+        <h1 class="ourMenu-title">Order</h1>
+    </div>
+    <section class="Drinks">
+        <div class="drinkcard">
+            <div class="row col-md-12">
+                @await Component.InvokeAsync("Product")
+            </div>
+        </div>
+    </section>
+</main>

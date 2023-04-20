@@ -1,0 +1,35 @@
+﻿@model SiteSocialLinkDto
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="row col-12 layout-top-spacing px-3 mt-3">
+    <form method="post" enctype="multipart/form-data">
+            <div class="row col-12">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label asp-for="Icon" class="control-label"></label>
+                        <input asp-for="Icon" class="form-control" />
+                        <span asp-validation-for="Icon" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label asp-for="Link" class="control-label"></label>
+                        <input asp-for="Link" class="form-control" />
+                        <span asp-validation-for="Link" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 mt-3">
+                <div class="col-md-4 control-label">
+                    @Html.ActionLink("Return to list", "Index", "Social", null, new { @class = "btn btn-primary"})
+                </div>
+                <div class="col-md-2 control-label">
+                    <input id="frmSocial" type="submit" value="Create" class="btn btn-success" tabindex="16" />
+                </div>
+            </div>
+        </form>
+</div>

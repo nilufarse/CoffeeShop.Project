@@ -1,0 +1,56 @@
+﻿@model List<ContactDto>
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+    <div class="row col-12 mt-3 mx-3">
+        <div id="tableProgress" class="col-lg-12 col-12 layout-spacing">
+            <div class="statbox widget box box-shadow">
+                <div class="widget-header">
+                    <h2 class="text-primary">Contact</h2>
+                    <div class="widget-content widget-content-area">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>FirstName</th>
+                                        <th>LastName</th>
+                                        <th>Email</th>
+                                        <th>Message</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.FirstName</td>
+                                        <td>@item.LastName</td>
+                                        <td>@item.Email</td>
+                                        @if (item.Description.Length > 10)
+                                        {
+                                            <td>@item.Description.Substring(0, 10)</td>
+                                        }
+                                        else
+                                        {
+                                            <td>@item.Description</td>
+                                        }
+                                        <td>
+
+                                            <a asp-action="Answer" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Answer</a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Delete</a>
+                                        </td>
+                                    </tr>
+                                    }
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,69 @@
+﻿@model ProductDto
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<div class="row col-12 layout-top-spacing px-3 mt-3">
+    <form method="post" enctype="multipart/form-data">
+        <div class="row col-12">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input readonly asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input readonly asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="ProductCategoryId" class="control-label"></label>
+
+                    <select readonly asp-for="ProductCategoryId"
+                            class="form-control"
+                            asp-items="@ViewBag.Category">
+                        <option>Please select one</option>
+                    </select>
+                    <span asp-validation-for="ProductCategoryId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="UnitOfPrice" class="control-label"></label>
+                    <input readonly asp-for="UnitOfPrice" class="form-control" />
+                    <span asp-validation-for="UnitOfPrice" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="TotalCount" class="control-label"></label>
+                    <input readonly asp-for="TotalCount" class="form-control" />
+                    <span asp-validation-for="TotalCount" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label asp-for="@Model.ProfileDocPath" class="control-label"></label>
+                    <input readonly type="file" name="files" class="form-control" multiple />
+                    <span asp-validation-for="@Model.ProfileDocPath" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 mt-3">
+            <div class="col-md-4 control-label">
+                @Html.ActionLink("Return to list", "Index", "Products", null, new { @class = "btn btn-primary" })
+            </div>
+            <div class="col-md-2 control-label">
+                <input id="frmProduct" type="submit" value="Delete" class="btn btn-success" tabindex="16" />
+            </div>
+        </div>
+    </form>
+</div>
+

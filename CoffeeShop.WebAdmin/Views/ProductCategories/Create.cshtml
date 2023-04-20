@@ -1,0 +1,36 @@
+﻿@model ProductCategoryDto
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="layout-px-spacing">
+    <div class="row layout-top-spacing">
+        <form asp-action="Create" class="mt-3 my-5 mx-3">
+            <div class="row col-12">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 mt-3">
+                <div class="col-md-4 control-label">
+                    @Html.ActionLink("Return to list", "Index", "ProductCategories", null, new { @class = "btn btn-info" })
+                </div>
+                <div class="col-md-4 control-label">
+                    <input id="frmProductCat" type="submit" value="Create" class="btn btn-success" tabindex="16" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

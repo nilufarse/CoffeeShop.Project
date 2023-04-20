@@ -1,0 +1,203 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+<header class="logoAndMenu">
+    <section class="header">
+        <div class="logo-img">
+            <a href="" class="logo-link">
+                <img class="logo" src="/images/Photo/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a id="first" asp-controller="OurMenu" asp-action="Index">Our Menu</a>
+            <a asp-controller="About" asp-action="Index">About</a>
+            <a asp-controller="Gallery" asp-action="Index">Gallery</a>
+            <a asp-controller="Contact" asp-action="Answer">Contact</a>
+            <a asp-controller="Order" asp-action="Index">Order</a>
+        </div>
+    </section>
+    <section class="site">
+        <div class="site-background"></div>
+        <div class="site-container">
+            <div class="row col-md-12">
+                <div class="site-content col-md-6">
+                    <div class="content">
+                        <h4 class="site-title">Welcome!</h4>
+                        <h1 class="site-title">We serve the <br> richest coffee in <br> the city!</h1>
+                    </div>
+                    <div class="site-icon">
+                        <h5>
+                            <i class="fa-solid fa-circle-play"></i>
+                            High quality in every cup of <br> coffee we serve/images.
+                        </h5>
+                    </div>
+                </div>
+                <div class="site--content col-md-6">
+                    <div class="coffee">
+                        <img class="coffe-image" src="/images/Photo/coffe.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+    <section class="Drinks">
+        <div class="drinks-container">
+            <div class="drinks">
+                <h2 class="drinks-title">
+                    Drinks
+                    <hr class="hr-title">
+                </h2>
+            </div>
+            <div class="drinks-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec
+                    ullamcorper
+                    mattis.
+                </p>
+            </div>
+            <div class="drinks-icon" style="position:relative;">
+                <a class="drinks-button-text" style="position:absolute; left:42%; z-index:999;" asp-controller="order" asp-action="index">All drinks</a>
+                <span class="drinks-button-icon">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+        </div>
+        <div class="coffecard">
+            <div class="row col-md-12" style="display:flex; justify-content:space-around;">
+                @await Component.InvokeAsync("Product", new { main = true })
+            </div>
+        </div>
+    </section>
+    <section class="Croissants">
+        <div class="croissants-container">
+            <div class="row col-md-12">
+                <div class="croissants col-md-6">
+                    <h5 class="croissants-title">From $2.50</h5>
+                    <h2 class="croissants-size">Croissants</h2>
+                    <hr class="hr-croissants">
+                    <h4 class="croissants-heading-title">Duis aute irure quasi</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus.</p>
+                    <span class="croissants-button-icon">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="croissants-button-text">All croissants</span>
+                </div>
+                <div class="croissants col-md-6">
+                    <img class="croissantsimg" src="/images/Photo/croissant.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="byforhome">
+        <div class="byforhome-container">
+            <div class="row">
+                <div class="card-paket-img col-sm-12 d-flex">
+                    <div class="col-sm-6 ">
+                        <img class="coffee-paket" src="/images/Photo/coffee-paket.png" alt="">
+                    </div>
+                    <div class="card-paket col-sm-6 ">
+                        <h5 class="paket-title">From $19.50</h5>
+                        <h2 class="paket-size">Buy for Home</h2>
+                        <hr class="hr-paket">
+                        <h4 class="paket-heading-title">Totam rem aperiam</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus.</p>
+                        <span class="paket-button-icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                        <a class="paket-button-text" asp-controller="order" asp-action="index">All Coffee</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="About">
+        <div class="aboutcontainer">
+            <div class="abouts">
+                <h2 class="about-title">
+                    About
+                    <hr class="hr-title">
+                </h2>
+            </div>
+            <div class="about-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec
+                    ullamcorper
+                    mattis.
+                </p>
+            </div>
+        </div>
+        <div class="about--container">
+            <div class="row">
+                <div class="card-abouts col-sm-12 d-flex">
+                    <div class="card-about col-sm-6 ">
+                        <h6 class="about--heading-title">Tailored-Made Coffee</h6>
+                        <h3 class="about-size-default">
+                            We offer a <br> unique coffee <br> house <br> environment
+                            <br> unlike any <br> other
+                            in N.Y.
+                        </h3>
+                    </div>
+                    <div class="card-about col-sm-6 ">
+                        <h5 class="about-default">The perfect place to enjoy your coffee</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris.
+                        </p>
+                        <p>
+                            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <p>
+                            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <span class="about-button-text">Read More</span>
+                        <span class="about-button-icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="baristoParty">
+        <div class="baristoparty-container">
+            <div class="row">
+                <div class="card-baristo col-sm-12 d-flex">
+                    <div class="card-cup-coffee col-sm-4">
+                        <h2 class="barista-size-default">Barista<br>Party</h2>
+                        <hr class="hr-baristo">
+                        <h4 class="barista-heading-title">Every Friday & Saturday</h4>
+                        <p>
+                            Consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore
+                            magna <br> aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <div class="baristo-button">
+                            <a class="baristo-button-text" href="">Make Reservation</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="card-coffee col-sm-4">
+                        <img class="coffee-cup-img" src="/images/Photo/coffee-cup.png" alt="">
+                    </div>
+                    <div class="card-cup col-sm-4">
+                        <h2 class="barista-size">Location</h2>
+                        <hr class="hrbaristo">
+                        <p>You can find us consectetur elit,<br> sed do eiusmod tempor incididun.</p>
+                        <h4 class="barista-title"><i class="fa-solid fa-location-dot"></i>Address </h4>
+                        <p>123 Fifth Avenue, New York,<br>NY 10160 </p>
+                        <div class="baristo-buttom">
+                            <a class="baristo-button-text" href="https://goo.gl/maps/igJb6vep7Ya4VAhC7">See on Google Maps</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

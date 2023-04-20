@@ -1,0 +1,65 @@
+﻿<header class="logoAndmenu">
+    <section class="header">
+        <div class="logo-img">
+            <a href="" class="logo-link">
+                <img class="logo" src="/images/Photo/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a id="first" asp-controller="OurMenu" asp-action="Index">Our Menu</a>
+            <a asp-controller="About" asp-action="Index">About</a>
+            <a asp-controller="Gallery" asp-action="Index">Gallery</a>
+            <a asp-controller="Contact" asp-action="Answer">Contact</a>
+            <a asp-controller="Order" asp-action="Index">Order</a>
+        </div>
+    </section>
+</header>
+<main>
+    <div class="container">
+        <h1 class="ourMenu-title">Our Menu</h1>
+    </div>
+    <section class="Drinks">
+        <div class="drinks-container">
+            <div class="drinks">
+                <h2 class="drinks-title">
+                    Drinks
+                    <hr class="hr-title">
+                </h2>
+            </div>
+            <div class="drinks-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec
+                    ullamcorper
+                    mattis.
+                </p>
+            </div>
+        </div>
+        <div class="drinkcard">
+            <div class="row col-md-12">
+                @await Component.InvokeAsync("Product", new { category = 1})
+               
+            </div>
+        </div>
+       
+    </section>
+    <section class="Drinks">
+        <div class="drink-container">
+            <div class="drinks">
+                <h2 class="drinks-title">
+                    Coffee For Home
+                    <hr class="hr-title">
+                </h2>
+            </div>
+            <div class="drinks-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+            </div>
+        </div>
+        <div class="packetcard">
+            <div class="row col-md-12">
+                @await Component.InvokeAsync("Product", new { category = 2 })
+                
+            </div>
+        </div>
+    </section>
+</main>
